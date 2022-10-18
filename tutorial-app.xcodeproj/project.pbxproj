@@ -16,6 +16,7 @@
 		3B40861628FE7BEA007C1DB3 /* tutorial_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40861528FE7BEA007C1DB3 /* tutorial_appTests.swift */; };
 		3B40862028FE7BEA007C1DB3 /* tutorial_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40861F28FE7BEA007C1DB3 /* tutorial_appUITests.swift */; };
 		3B40862228FE7BEA007C1DB3 /* tutorial_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40862128FE7BEA007C1DB3 /* tutorial_appUITestsLaunchTests.swift */; };
+		3B40862F28FE7D32007C1DB3 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40862E28FE7D32007C1DB3 /* BViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3B40861B28FE7BEA007C1DB3 /* tutorial-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tutorial-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B40861F28FE7BEA007C1DB3 /* tutorial_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorial_appUITests.swift; sourceTree = "<group>"; };
 		3B40862128FE7BEA007C1DB3 /* tutorial_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorial_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B40862E28FE7D32007C1DB3 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3B4085FE28FE7BE9007C1DB3 /* AppDelegate.swift */,
 				3B40860028FE7BE9007C1DB3 /* SceneDelegate.swift */,
 				3B40860228FE7BE9007C1DB3 /* ViewController.swift */,
+				3B40862E28FE7D32007C1DB3 /* BViewController.swift */,
 				3B40860428FE7BE9007C1DB3 /* Main.storyboard */,
 				3B40860728FE7BEA007C1DB3 /* Assets.xcassets */,
 				3B40860928FE7BEA007C1DB3 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B40860328FE7BE9007C1DB3 /* ViewController.swift in Sources */,
+				3B40862F28FE7D32007C1DB3 /* BViewController.swift in Sources */,
 				3B4085FF28FE7BE9007C1DB3 /* AppDelegate.swift in Sources */,
 				3B40860128FE7BE9007C1DB3 /* SceneDelegate.swift in Sources */,
 			);
@@ -451,6 +455,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "porz.ios.team.tutorial-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +485,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "porz.ios.team.tutorial-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
